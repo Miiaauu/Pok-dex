@@ -1,4 +1,6 @@
 import edu.nintendo.model.ReadData;
+import edu.nintendo.pojo.Entity;
+import edu.nintendo.pojo.PokeEntity;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -6,23 +8,22 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.List;
 
 public class DowloadImages {
 
 
     public static void main(String[] args) {
 
-        JSONArray data = ReadData.getData();
+        List<PokeEntity> data = Entity.inject(PokeEntity.class);
 
         data.forEach( o -> {
 
-            JSONObject object = (JSONObject) o;
-
-            System.out.println(object.get("img"));
+            System.out.println(o.getImg());
 
             try {
                 // Url con la foto
-                URL url = new URL(object.get("img").toString());
+                URL url = new URL(o.getImg());
 
                 // establecemos conexion
                 URLConnection urlCon = url.openConnection();
@@ -33,7 +34,7 @@ public class DowloadImages {
                 // Se obtiene el inputStream de la foto web y se abre el fichero
                 // local.
                 InputStream is = urlCon.getInputStream();
-                FileOutputStream fos = new FileOutputStream("C:\\GitKraken\\PokedexFXML\\src\\resource\\img\\pokedex\\detail\\" + object.get("img").toString().replace("https://assets.pokemon.com/assets/cms2/img/pokedex/detail/",""));
+                FileOutputStream fos = new FileOutputStream("C:\\GitKraken\\PokedexFXML\\src\\resource\\img\\pokedex\\detail\\" + o.getImg().replace("https://assets.pokemon.com/assets/cms2/img/pokedex/detail/",""));
 
                 // Lectura de la foto de la web y escritura en fichero local
                 byte[] array = new byte[1000]; // buffer temporal de lectura.

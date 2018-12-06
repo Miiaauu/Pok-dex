@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/edu/nintendo/model/ReadData.java" line="33" mnemonic="7" />
+    <bookmark url="file://$PROJECT_DIR$/src/edu/nintendo/model/ReadData.java" line="26" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="608db44b-083f-40e8-9fd9-bfbf1c116c44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DowloadImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/nintendo/annotation/Id.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/nintendo/annotation/Json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/nintendo/annotation/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/nintendo/model/Stringfy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/nintendo/pojo/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/nintendo/pojo/PokeEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokedexFXML/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokedexFXML/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokedexFXML/edu/nintendo/controller/IndexC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokedexFXML/edu/nintendo/controller/IndexC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokedexFXML/edu/nintendo/model/ReadData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokedexFXML/edu/nintendo/model/ReadData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DowloadImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DowloadImages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/nintendo/controller/IndexC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/nintendo/controller/IndexC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/nintendo/model/ReadData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/nintendo/model/ReadData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/db/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/db/data.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +29,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/nintendo/model/ReadData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1080">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="720">
+              <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#loadPokeData#0;class#ReadData#0" />
+                <element signature="method#showInfo#0;class#ReadData#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/nintendo/model/Stringfy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="method#arrayToString#0;class#Stringfy#0" />
+                <element signature="method#stringToArray#0;class#Stringfy#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,11 +59,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/nintendo/controller/IndexC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="1110">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/nintendo/model/TypeColors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -46,6 +82,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -73,40 +110,39 @@
         <option value="$PROJECT_DIR$/src/index.fxml" />
         <option value="$PROJECT_DIR$/src/IndexC.java" />
         <option value="$PROJECT_DIR$/src/edu/nintendo/model/TypeColor.java" />
-        <option value="$PROJECT_DIR$/src/App.java" />
         <option value="$PROJECT_DIR$/src/edu/nintendo/view/index.fxml" />
         <option value="$PROJECT_DIR$/src/resource/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/src/res/db/data.json" />
         <option value="$PROJECT_DIR$/src/resource/db/data.json" />
-        <option value="$PROJECT_DIR$/src/DowloadImages.java" />
+        <option value="$PROJECT_DIR$/src/edu/nintendo/Annotation.java" />
+        <option value="$PROJECT_DIR$/src/edu/nintendo/annotation/Key.java" />
+        <option value="$PROJECT_DIR$/src/edu/nintendo/annotation/Json.java" />
+        <option value="$PROJECT_DIR$/src/edu/nintendo/annotation/Id.java" />
+        <option value="$PROJECT_DIR$/src/edu/nintendo/pojo/Entity.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/edu/nintendo/pojo/PokeEntity.java" />
+        <option value="$PROJECT_DIR$/src/App.java" />
         <option value="$PROJECT_DIR$/src/edu/nintendo/controller/IndexC.java" />
+        <option value="$PROJECT_DIR$/src/edu/nintendo/model/Stringfy.java" />
+        <option value="$PROJECT_DIR$/src/DowloadImages.java" />
         <option value="$PROJECT_DIR$/src/edu/nintendo/model/ReadData.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-319" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Pok-dex" type="58d84e3e:PackageViewProjectNode" />
-              <item name="PokedexFXML" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,26 +172,25 @@
               <item name="PokedexFXML" type="b2602c69:ProjectViewProjectNode" />
               <item name="PokedexFXML" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PokedexFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokedexFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PokedexFXML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokedexFXML" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="nintendo" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pok-dex" type="58d84e3e:PackageViewProjectNode" />
+              <item name="PokedexFXML" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +200,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544118803226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544130158779" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -206,9 +241,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="PokedexFXML" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.DowloadImages" />
       </list>
     </recent_temporary>
@@ -228,17 +271,18 @@
       <workItem from="1544071846501" duration="215000" />
       <workItem from="1544073781397" duration="1213000" />
       <workItem from="1544116201054" duration="2640000" />
+      <workItem from="1544119166952" duration="10836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28394000" />
+    <option name="totallyTimeSpent" value="39230000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-319" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20272315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,7 +291,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3109426" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30932897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -312,10 +356,41 @@
     <entry file="file://$PROJECT_DIR$/src/edu/nintendo/model/TypeColor.java" />
     <entry file="file://$PROJECT_DIR$/src/resource/stylesheets/style.css" />
     <entry file="file://$PROJECT_DIR$/src/edu/nintendo/view/index.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/DowloadImages.java">
+    <entry file="file://$PROJECT_DIR$/src/resource/stylesheet/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/Annotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/pojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/annotation/Key.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/annotation/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -324,29 +399,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resource/db/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="2120" column="20" lean-forward="true" selection-start-line="2120" selection-start-column="20" selection-end-line="2120" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/stylesheet/style.css">
+    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/pojo/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="-945">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getData#0;class#Entity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/annotation/Id.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/pojo/PokeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="270">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="method#getFXML#0;class#App#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/controller/IndexC.java">
+    <entry file="file://$PROJECT_DIR$/src/DowloadImages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="254">
+          <caret line="36" column="140" selection-start-line="36" selection-start-column="140" selection-end-line="36" selection-end-column="140" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -355,8 +473,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/nintendo/model/ReadData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="720">
+          <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#loadPokeData#0;class#ReadData#0" />
+            <element signature="method#showInfo#0;class#ReadData#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/model/Stringfy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="method#arrayToString#0;class#Stringfy#0" />
+            <element signature="method#stringToArray#0;class#Stringfy#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/controller/IndexC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nintendo/model/TypeColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>

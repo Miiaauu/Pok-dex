@@ -3,6 +3,7 @@ package edu.nintendo.model;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXDialog;
 import com.jfoenix.controls.JFXDialogLayout;
+import edu.nintendo.pojo.PokeEntity;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
@@ -16,76 +17,33 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.shape.SVGPath;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
-import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class ReadData {
 
-    public static JSONArray getData() {
+    public static void loadPokeData(List<PokeEntity> data, ListView<HBox> list, String icon, EventHandler evnt) {
 
-        String out = "";
-        JSONParser parser = new JSONParser();
-        JSONArray array = null;
-
-        try {
-            BufferedReader in = new BufferedReader(new InputStreamReader(ReadData.class.getResourceAsStream("/resource/db/data.json"), "utf-8"));
-
-            String string;
-            while ((string = in.readLine())!=null) {
-                out += string;
-            }
-
-            array = (JSONArray) parser.parse(out);
-
-            return array;
-
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-
-        try {
-            array = (JSONArray) parser.parse("[{\"error\":\"No se pudieron obtener los datos.\"}]");
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-
-        return array;
-    }
-
-    public static void loadPokeData(JSONArray data, ListView<HBox> list, String icon, EventHandler evnt) {
-        ArrayList<Node> elements = new ArrayList<Node>();
-        JSONParser parser = new JSONParser();
-
+        ArrayList<Node> elements = new ArrayList<>();
         int i = 0;
-        for (Object dat : data) {
-            try {
-                JSONObject da = (JSONObject) parser.parse(dat.toString());
 
+        for (PokeEntity dat : data) {
 
-                Label number = new Label(da.get("number").toString());
+                System.out.print(dat.getName() + " ");
+
+                Label number = new Label(dat.getNumber());
                 number.getStyleClass().add("number");
 
-                ImageView img = new ImageView(new Image(da.get("img").toString(), 100, 100, true, true));
+                ImageView img = new ImageView(new Image(dat.getImg(), 100, 100, true, true));
 
-                Label name = new Label(da.get("name").toString());
+                Label name = new Label(dat.getName());
                 name.getStyleClass().add("name");
 
                 HBox type = new HBox();
                 type.setAlignment(Pos.CENTER);
                 type.setSpacing(5);
 
-                String[] types = da.get("type").toString().replace("[","").replace("]","").replace("\"","").split(",");
+                String[] types = dat.getType();
                 TypeColors.setColor(type,types);
 
                 SVGPath weaknessesIcon = new SVGPath();
@@ -94,7 +52,7 @@ public class ReadData {
 
 
                 JFXButton action = new JFXButton("",weaknessesIcon);
-                action.setId(da.get("weaknesses").toString());
+                action.setId(Stringfy.arrayToString(dat.getWeaknesses()));
                 action.setOnAction(evnt);
 
                 VBox box = new VBox(number,img,name,type,action);
@@ -125,16 +83,14 @@ public class ReadData {
                     elements.forEach( o -> {
                         hBox.getChildren().add(o);
                     });
-                    System.out.println("HBOX -> " + elements.size());
+
                     if (elements.size() != 0) {
                         list.getItems().add(hBox);
                     }
                 }
                 //======================
 
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
+                System.out.println("✓");
         }
     }
 
@@ -142,7 +98,7 @@ public class ReadData {
 
         //IDENTIFICA EL CONTENIDO DEL BOTON
         JFXButton action = (JFXButton) event.getSource();
-        String[] datas = action.getId().replace("[","").replace("]","").replace("\"","").split(",");;
+        String[] datas = Stringfy.stringToArray(action.getId());
         //============================================
 
         //ARREGLOS PARA EL CUERPO DEL DIALOGO
@@ -164,6 +120,7 @@ public class ReadData {
         //SE MUESTRA EL DIALOGO
         dialog.show(root);
         //=====================
+
     }
 
 }
