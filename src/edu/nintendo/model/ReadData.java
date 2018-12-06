@@ -92,6 +92,20 @@ public class ReadData {
 
                 System.out.println("✓");
         }
+
+        ArrayList<HBox> erases = new ArrayList<>();
+        list.getItems().forEach( o -> {
+
+            if (o.getChildren().size() == 0) {
+                erases.add(o);
+            }
+
+        });
+
+        erases.forEach( o -> {
+            list.getItems().removeAll(o);
+        });
+
     }
 
     public static void showInfo(Event event, JFXDialogLayout layout, JFXDialog dialog, StackPane root) {
