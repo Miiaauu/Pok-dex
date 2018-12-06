@@ -135,14 +135,14 @@
   {
     "name": "Ekans",
     "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png",
-    "number":"N.º023",
+    "number": "N.º023",
     "type": [],
     "weaknesses": []
   },
   {
     "name": "Arbok",
     "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png",
-    "number":"N.º024",
+    "number": "N.º024",
     "type": [],
     "weaknesses": []
   },
@@ -254,7 +254,7 @@
   {
     "name": "Zubat",
     "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/041.png",
-    "number":"N.º041",
+    "number": "N.º041",
     "type": [],
     "weaknesses": []
   },
@@ -275,7 +275,7 @@
   {
     "name": "Gloom",
     "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/044.png",
-    "number":"N.º044",
+    "number": "N.º044",
     "type": [],
     "weaknesses": []
   },
@@ -289,7 +289,7 @@
   {
     "name": "Paras",
     "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/046.png",
-    "number":"N.º046",
+    "number": "N.º046",
     "type": [],
     "weaknesses": []
   },
@@ -948,6 +948,1182 @@
     "name": "Articuno",
     "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/144.png",
     "number": "N.º144",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/145.png",
+    "number": "N.º145",
+    "name": "Zapdos",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/146.png",
+    "number": "N.º146",
+    "name": "Moltres",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/147.png",
+    "number": "N.º147",
+    "name": "Dratini",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/148.png",
+    "number": "N.º148",
+    "name": "Dragonair",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/149.png",
+    "number": "N.º149",
+    "name": "Dragonite",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/150.png",
+    "number": "N.º150",
+    "name": "Mewtwo",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/151.png",
+    "number": "N.º151",
+    "name": "Mew",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/152.png",
+    "number": "N.º152",
+    "name": "Chikorita",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/153.png",
+    "number": "N.º153",
+    "name": "Bayleef",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/154.png",
+    "number": "N.º154",
+    "name": "Meganium",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/155.png",
+    "number": "N.º155",
+    "name": "Cyndaquil",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/156.png",
+    "number": "N.º156",
+    "name": "Quilava",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/157.png",
+    "number": "N.º157",
+    "name": "Typhlosion",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/158.png",
+    "number": "N.º158",
+    "name": "Totodile",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/159.png",
+    "number": "N.º159",
+    "name": "Croconaw",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/160.png",
+    "number": "N.º160",
+    "name": "Feraligatr",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/161.png",
+    "number": "N.º161",
+    "name": "Sentret",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/162.png",
+    "number": "N.º162",
+    "name": "Furret",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/163.png",
+    "number": "N.º163",
+    "name": "Hoothoot",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/164.png",
+    "number": "N.º164",
+    "name": "Noctowl",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/165.png",
+    "number": "N.º165",
+    "name": "Ledyba",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/166.png",
+    "number": "N.º166",
+    "name": "Ledian",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/167.png",
+    "number": "N.º167",
+    "name": "Spinarak",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/168.png",
+    "number": "N.º168",
+    "name": "Ariados",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/169.png",
+    "number": "N.º169",
+    "name": "Crobat",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/170.png",
+    "number": "N.º170",
+    "name": "Chinchou",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/171.png",
+    "number": "N.º171",
+    "name": "Lanturn",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/172.png",
+    "number": "N.º172",
+    "name": "Pichu",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/173.png",
+    "number": "N.º173",
+    "name": "Cleffa",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/174.png",
+    "number": "N.º174",
+    "name": "Igglybuff",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/175.png",
+    "number": "N.º175",
+    "name": "Togepi",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/176.png",
+    "number": "N.º176",
+    "name": "Togetic",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/177.png",
+    "number": "N.º177",
+    "name": "Natu",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/178.png",
+    "number": "N.º178",
+    "name": "Xatu",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/179.png",
+    "number": "N.º179",
+    "name": "Mareep",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/180.png",
+    "number": "N.º180",
+    "name": "Flaaffy",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/181.png",
+    "number": "N.º181",
+    "name": "Ampharos",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/182.png",
+    "number": "N.º182",
+    "name": "Bellossom",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/183.png",
+    "number": "N.º183",
+    "name": "Marill",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/184.png",
+    "number": "N.º184",
+    "name": "Azumarill",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/185.png",
+    "number": "N.º185",
+    "name": "Sudowoodo",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/186.png",
+    "number": "N.º186",
+    "name": "Politoed",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/187.png",
+    "number": "N.º187",
+    "name": "Hoppip",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/188.png",
+    "number": "N.º188",
+    "name": "Skiploom",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/189.png",
+    "number": "N.º189",
+    "name": "Jumpluff",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/190.png",
+    "number": "N.º190",
+    "name": "Aipom",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/191.png",
+    "number": "N.º191",
+    "name": "Sunkern",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/192.png",
+    "number": "N.º192",
+    "name": "Sunflora",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/193.png",
+    "number": "N.º193",
+    "name": "Yanma",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/194.png",
+    "number": "N.º194",
+    "name": "Wooper",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/195.png",
+    "number": "N.º195",
+    "name": "Quagsire",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/196.png",
+    "number": "N.º196",
+    "name": "Espeon",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/197.png",
+    "number": "N.º197",
+    "name": "Umbreon",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/198.png",
+    "number": "N.º198",
+    "name": "Murkrow",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/199.png",
+    "number": "N.º199",
+    "name": "Slowking",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/200.png",
+    "number": "N.º200",
+    "name": "Misdreavus",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/201.png",
+    "number": "N.º201",
+    "name": "Unown",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/202.png",
+    "number": "N.º202",
+    "name": "Wobbuffet",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/203.png",
+    "number": "N.º203",
+    "name": "Girafarig",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/204.png",
+    "number": "N.º204",
+    "name": "Pineco",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/205.png",
+    "number": "N.º205",
+    "name": "Forretress",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/206.png",
+    "number": "N.º206",
+    "name": "Dunsparce",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/207.png",
+    "number": "N.º207",
+    "name": "Gligar",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/208.png",
+    "number": "N.º208",
+    "name": "Steelix",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/209.png",
+    "number": "N.º209",
+    "name": "Snubbull",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/210.png",
+    "number": "N.º210",
+    "name": "Granbull",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/211.png",
+    "number": "N.º211",
+    "name": "Qwilfish",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/212.png",
+    "number": "N.º212",
+    "name": "Scizor",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/213.png",
+    "number": "N.º213",
+    "name": "Shuckle",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/214.png",
+    "number": "N.º214",
+    "name": "Heracross",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/215.png",
+    "number": "N.º215",
+    "name": "Sneasel",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/216.png",
+    "number": "N.º216",
+    "name": "Teddiursa",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/217.png",
+    "number": "N.º217",
+    "name": "Ursaring",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/218.png",
+    "number": "N.º218",
+    "name": "Slugma",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/219.png",
+    "number": "N.º219",
+    "name": "Magcargo",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/220.png",
+    "number": "N.º220",
+    "name": "Swinub",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/221.png",
+    "number": "N.º221",
+    "name": "Piloswine",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/222.png",
+    "number": "N.º222",
+    "name": "Corsola",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/223.png",
+    "number": "N.º223",
+    "name": "Remoraid",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/224.png",
+    "number": "N.º224",
+    "name": "Octillery",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/225.png",
+    "number": "N.º225",
+    "name": "Delibird",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/226.png",
+    "number": "N.º226",
+    "name": "Mantine",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/227.png",
+    "number": "N.º227",
+    "name": "Skarmory",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/228.png",
+    "number": "N.º228",
+    "name": "Houndour",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/229.png",
+    "number": "N.º229",
+    "name": "Houndoom",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/230.png",
+    "number": "N.º230",
+    "name": "Kingdra",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/231.png",
+    "number": "N.º231",
+    "name": "Phanpy",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/232.png",
+    "number": "N.º232",
+    "name": "Donphan",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/233.png",
+    "number": "N.º233",
+    "name": "Porygon2",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/234.png",
+    "number": "N.º234",
+    "name": "Stantler",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/235.png",
+    "number": "N.º235",
+    "name": "Smeargle",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/236.png",
+    "number": "N.º236",
+    "name": "Tyrogue",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/237.png",
+    "number": "N.º237",
+    "name": "Hitmontop",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/238.png",
+    "number": "N.º238",
+    "name": "Smoochum",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/239.png",
+    "number": "N.º239",
+    "name": "Elekid",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/240.png",
+    "number": "N.º240",
+    "name": "Magby",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/241.png",
+    "number": "N.º241",
+    "name": "Miltank",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/242.png",
+    "number": "N.º242",
+    "name": "Blissey",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/243.png",
+    "number": "N.º243",
+    "name": "Raikou",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/244.png",
+    "number": "N.º244",
+    "name": "Entei",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/245.png",
+    "number": "N.º245",
+    "name": "Suicune",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/246.png",
+    "number": "N.º246",
+    "name": "Larvitar",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/247.png",
+    "number": "N.º247",
+    "name": "Pupitar",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/248.png",
+    "number": "N.º248",
+    "name": "Tyranitar",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/249.png",
+    "number": "N.º249",
+    "name": "Lugia",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/250.png",
+    "number": "N.º250",
+    "name": "Ho-Oh",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/251.png",
+    "number": "N.º251",
+    "name": "Celebi",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/252.png",
+    "number": "N.º252",
+    "name": "Treecko",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/253.png",
+    "number": "N.º253",
+    "name": "Grovyle",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/254.png",
+    "number": "N.º254",
+    "name": "Sceptile",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/255.png",
+    "number": "N.º255",
+    "name": "Torchic",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/256.png",
+    "number": "N.º256",
+    "name": "Combusken",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/257.png",
+    "number": "N.º257",
+    "name": "Blaziken",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/258.png",
+    "number": "N.º258",
+    "name": "Mudkip",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/259.png",
+    "number": "N.º259",
+    "name": "Marshtomp",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/260.png",
+    "number": "N.º260",
+    "name": "Swampert",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/261.png",
+    "number": "N.º261",
+    "name": "Poochyena",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/262.png",
+    "number": "N.º262",
+    "name": "Mightyena",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/263.png",
+    "number": "N.º263",
+    "name": "Zigzagoon",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/264.png",
+    "number": "N.º264",
+    "name": "Linoone",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/265.png",
+    "number": "N.º265",
+    "name": "Wurmple",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/266.png",
+    "number": "N.º266",
+    "name": "Silcoon",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/267.png",
+    "number": "N.º267",
+    "name": "Beautifly",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/268.png",
+    "number": "N.º268",
+    "name": "Cascoon",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/269.png",
+    "number": "N.º269",
+    "name": "Dustox",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/270.png",
+    "number": "N.º270",
+    "name": "Lotad",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/271.png",
+    "number": "N.º271",
+    "name": "Lombre",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/272.png",
+    "number": "N.º272",
+    "name": "Ludicolo",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/273.png",
+    "number": "N.º273",
+    "name": "Seedot",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/274.png",
+    "number": "N.º274",
+    "name": "Nuzleaf",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/275.png",
+    "number": "N.º275",
+    "name": "Shiftry",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/276.png",
+    "number": "N.º276",
+    "name": "Taillow",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/277.png",
+    "number": "N.º277",
+    "name": "Swellow",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/278.png",
+    "number": "N.º278",
+    "name": "Wingull",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/279.png",
+    "number": "N.º279",
+    "name": "Pelipper",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/280.png",
+    "number": "N.º280",
+    "name": "Ralts",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/281.png",
+    "number": "N.º281",
+    "name": "Kirlia",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/282.png",
+    "number": "N.º282",
+    "name": "Gardevoir",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/283.png",
+    "number": "N.º283",
+    "name": "Surskit",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/284.png",
+    "number": "N.º284",
+    "name": "Masquerain",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/285.png",
+    "number": "N.º285",
+    "name": "Shroomish",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/286.png",
+    "number": "N.º286",
+    "name": "Breloom",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/287.png",
+    "number": "N.º287",
+    "name": "Slakoth",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/288.png",
+    "number": "N.º288",
+    "name": "Vigoroth",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/289.png",
+    "number": "N.º289",
+    "name": "Slaking",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/290.png",
+    "number": "N.º290",
+    "name": "Nincada",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/291.png",
+    "number": "N.º291",
+    "name": "Ninjask",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/292.png",
+    "number": "N.º292",
+    "name": "Shedinja",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/293.png",
+    "number": "N.º293",
+    "name": "Whismur",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/294.png",
+    "number": "N.º294",
+    "name": "Loudred",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/295.png",
+    "number": "N.º295",
+    "name": "Exploud",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/296.png",
+    "number": "N.º296",
+    "name": "Makuhita",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/297.png",
+    "number": "N.º297",
+    "name": "Hariyama",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/298.png",
+    "number": "N.º298",
+    "name": "Azurill",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/299.png",
+    "number": "N.º299",
+    "name": "Nosepass",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/300.png",
+    "number": "N.º300",
+    "name": "Skitty",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/301.png",
+    "number": "N.º301",
+    "name": "Delcatty",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/302.png",
+    "number": "N.º302",
+    "name": "Sableye",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/303.png",
+    "number": "N.º303",
+    "name": "Mawile",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/304.png",
+    "number": "N.º304",
+    "name": "Aron",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/305.png",
+    "number": "N.º305",
+    "name": "Lairon",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/306.png",
+    "number": "N.º306",
+    "name": "Aggron",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/307.png",
+    "number": "N.º307",
+    "name": "Meditite",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/308.png",
+    "number": "N.º308",
+    "name": "Medicham",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/309.png",
+    "number": "N.º309",
+    "name": "Electrike",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/310.png",
+    "number": "N.º310",
+    "name": "Manectric",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/311.png",
+    "number": "N.º311",
+    "name": "Plusle",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/312.png",
+    "number": "N.º312",
+    "name": "Minun",
     "type": [],
     "weaknesses": []
   }
