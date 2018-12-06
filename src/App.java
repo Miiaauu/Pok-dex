@@ -1,3 +1,4 @@
+
 import edu.nintendo.controller.IndexC;
 import edu.nintendo.model.ReadData;
 import javafx.application.Application;
@@ -12,7 +13,7 @@ import java.io.IOException;
 
 public class App extends Application {
 
-    Stage stage;
+    private Stage stage;
 
     private Object getFXML(String path, String title, Image icon, String css) throws IOException {
         stage = new Stage();
@@ -23,6 +24,7 @@ public class App extends Application {
         stage.setTitle(title);
         stage.getIcons().add(icon);
         scene.getRoot().getStylesheets().add(css);
+
         return loader.getController();
     }
 
@@ -36,17 +38,18 @@ public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        App app = new App();
+
         JSONArray data = ReadData.getData();
-        //Asigna el controlador del fxml
-        IndexC indexC = (IndexC) app.getFXML("/edu/nintendo/view/index.fxml", "Pokédex", new Image("/resource/img/icon.png"), "/resource/stylesheets/style.css");
+
+        App app = new App();
+
+        IndexC indexC = (IndexC) app.getFXML("/edu/nintendo/drawable/index.fxml","Pokedex",new Image("/res/img/icon.png"),"/res/stylesheet/style.css");
         indexC.init(data);
-        app.getStage().setMinHeight(700);
-        app.getStage().setMinWidth(630);
+
+        app.getStage().setMinWidth(700);
+        app.getStage().setMinHeight(630);
         app.getStage().show();
     }
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+    public static void main(String[] args) { launch(args); }
 }

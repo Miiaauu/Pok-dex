@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="590.0" minWidth="670.0" prefHeight="590.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.nintendo.controller.IndexC">
+   <children>
+      <ListView fx:id="list" pickOnBounds="false" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</StackPane>

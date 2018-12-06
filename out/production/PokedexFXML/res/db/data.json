@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+    "number": "N.º001",
+    "name": "Bulbasaur",
+    "type": [
+      "Planta",
+      "Veneno"
+    ],
+    "weaknesses": [
+      "Fuego",
+      "Volador",
+      "Hielo",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
+    "number": "N.º002",
+    "name": "Ivysaur",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png",
+    "number": "N.º003",
+    "name": "Venusaur",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
+    "number": "N.º004",
+    "name": "Charmander",
+    "type": [
+      "Fuego"
+    ],
+    "weaknesses": [
+      "Tierra",
+      "Roca",
+      "Agua"
+    ]
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png",
+    "number": "N.º005",
+    "name": "Charmeleon",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png",
+    "number": "N.º006",
+    "name": "Charizard",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+    "number": "N.º007",
+    "name": "Squirtle",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png",
+    "number": "N.º008",
+    "name": "Wartortle",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png",
+    "number": "N.º009",
+    "name": "Blastoise",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png",
+    "number": "N.º010",
+    "name": "Caterpie",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png",
+    "number": "N.º011",
+    "name": "Metapod",
+    "type": [],
+    "weaknesses": []
+  },
+  {
+    "id": 1,
+    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png",
+    "number": "N.º012",
+    "name": "Butterfree",
+    "type": [],
+    "weaknesses": []
+  }
+]
