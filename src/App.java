@@ -43,7 +43,7 @@ public class App extends Application {
 
         App app = new App();
 
-        IndexC indexC = (IndexC) app.getFXML("/edu/nintendo/drawable/index.fxml","Pokedex",new Image("/res/img/icon.png"),"/res/stylesheet/style.css");
+        IndexC indexC = (IndexC) app.getFXML("/edu/nintendo/drawable/index.fxml","Pokedex",new Image("/resource/img/icon.png"), "/resource/stylesheet/style.css");
         indexC.init(data);
 
         app.getStage().setMinWidth(700);

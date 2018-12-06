@@ -1,14 +1,10 @@
 package edu.nintendo.model;
 
-import javafx.scene.Node;
-import javafx.scene.control.ListView;
-import javafx.scene.layout.HBox;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import java.io.*;
-import java.util.ArrayList;
 
 public class ReadData {
 
@@ -19,7 +15,7 @@ public class ReadData {
         JSONArray array = null;
 
         try {
-            BufferedReader in = new BufferedReader(new InputStreamReader(ReadData.class.getResourceAsStream("/res/db/data.json"), "utf-8"));
+            BufferedReader in = new BufferedReader(new InputStreamReader(ReadData.class.getResourceAsStream("/resource/db/data.json"), "utf-8"));
 
             String string;
             while ((string = in.readLine())!=null) {
