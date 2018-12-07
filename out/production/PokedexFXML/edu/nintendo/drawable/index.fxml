@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
 
 <StackPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="590.0" minWidth="670.0" prefHeight="590.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.nintendo.controller.IndexC">
    <children>
-      <ListView fx:id="list" pickOnBounds="false" prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ListView fx:id="list" layoutY="56.0" pickOnBounds="false" prefHeight="534.0" prefWidth="670.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0" />
+            <JFXDrawer fx:id="drawer" defaultDrawerSize="300.0" prefHeight="590.0" prefWidth="270.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane hbarPolicy="NEVER" prefHeight="590.0" prefWidth="270.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <content>
+                              <VBox fx:id="categoryBar" prefHeight="233.0" prefWidth="268.0" style="-fx-background-color: #fff;">
+                                 <children>
+                                    <ImageView fitHeight="186.0" fitWidth="270.0" pickOnBounds="true" preserveRatio="true">
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                       <image>
+                                          <Image url="/resource/img/giphy.gif" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </AnchorPane>
+               </children></JFXDrawer>
+            <HBox prefHeight="50.0" prefWidth="670.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <JFXHamburger fx:id="hamburger" prefHeight="50.0" prefWidth="50.0" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
    </children>
 </StackPane>

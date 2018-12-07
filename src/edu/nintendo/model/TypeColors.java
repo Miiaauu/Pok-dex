@@ -1,5 +1,6 @@
 package edu.nintendo.model;
 
+import com.jfoenix.controls.JFXButton;
 import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 
@@ -145,6 +146,29 @@ public class TypeColors {
             }
 
         }
+    }
+
+    public static void setColor(JFXButton types) {
+
+            switch (types.getText()) {
+                case "Fuego": types.getStyleClass().add("fire"); break;
+                case "Planta": types.getStyleClass().add("plant"); break;
+                case "Veneno": types.getStyleClass().add("poison"); break;
+                case "Hielo": types.getStyleClass().add("ice"); break;
+                case "Psíquico": types.getStyleClass().add("psychic"); break;
+                case "Tierra": types.getStyleClass().add("ground"); break;
+                case "Roca": types.getStyleClass().add("rock"); break;
+                case "Agua": types.getStyleClass().add("water"); break;
+                case "Volador": types.getStyleClass().add("flying"); break;
+                case "Bicho": types.getStyleClass().add("insect"); break;
+                case "Normal": types.getStyleClass().add("normal"); break;
+                case "Hada": types.getStyleClass().add("fairy"); break;
+                case "Eléctrico": types.getStyleClass().add("electric"); break;
+                case "Lucha": types.getStyleClass().add("fight"); break;
+                case "Acero": types.getStyleClass().add("steel"); break;
+                case "Fantasma": types.getStyleClass().add("ghost"); break;
+                default: types.getStyleClass().add("default");
+            }
     }
 
 }

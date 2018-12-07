@@ -11,6 +11,7 @@ import org.json.simple.parser.ParseException;
 
 import java.io.*;
 import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Entity {
@@ -99,6 +100,22 @@ public class Entity {
 
     public static PokeEntity findPokemon(Class clazz, int id) {
         return (PokeEntity) inject(clazz).get(id - 1);
+    }
+
+    public static List<String> getCategories(Class clazz) {
+
+        List<PokeEntity> list = inject(clazz);
+        ArrayList<String> out = new ArrayList<>();
+
+        for (PokeEntity pk : list) {
+            for(String type : pk.getType()) {
+                if(!out.contains(type)) {
+                    out.add(type);
+                }
+            }
+        }
+
+        return out;
     }
 
     private static JSONArray getData(String path) {
