@@ -64,14 +64,14 @@
   },
   {
     "name": "Caterpie",
-    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png",
+    "img": "/resource/img/pokedex/detail/010.png",
     "number": "N.º010",
     "type": ["Bicho"],
     "weaknesses": ["Fuego", "Volador", "Roca"]
   },
   {
     "name": "Metapod",
-    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png",
+    "img": "/resource/img/pokedex/detail/011.png",
     "number": "N.º011",
     "type": ["Bicho"],
     "weaknesses": ["Fuego", "Volador", "Roca"]
@@ -113,7 +113,7 @@
   },
   {
     "name": "Pidgeotto ",
-    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png",
+    "img": "/resource/img/pokedex/detail/017.png",
     "number": "N.º017",
     "type": ["Normal", "Volador"],
     "weaknesses": ["Eléctrico", "Hielo", "Roca"]
@@ -218,7 +218,7 @@
   },
   {
     "name": "Nidoran♂",
-    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/032.png",
+    "img": "/resource/img/pokedex/detail/032.png",
     "number": "N.º032",
     "type": ["Veneno"],
     "weaknesses": ["Tierra", "Psíquico"]
@@ -323,7 +323,7 @@
   },
   {
     "name": "Parasect",
-    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/047.png",
+    "img": "/resource/img/pokedex/detail/047.png",
     "number": "N.º047",
     "type": ["Bicho", "Planta"],
     "weaknesses": ["Fuego", "Volador", "Bicho", "Hielo", "Veneno", "Roca"]
@@ -743,7 +743,7 @@
   },
   {
     "name": "Hitmonchan ",
-    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/107.png",
+    "img": "/resource/img/pokedex/detail/107.png",
     "number": "N.º107",
     "type": ["Lucha"],
     "weaknesses": ["Volador", "Psíquico", "Hada"]
@@ -876,7 +876,7 @@
   },
   {
     "name": "Magmar",
-    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/126.png",
+    "img": "/resource/img/pokedex/detail/126.png",
     "number": "N.º126",
     "type": ["Fuego"],
     "weaknesses": ["Tierra", "Roca", "Agua"]
@@ -890,7 +890,7 @@
   },
   {
     "name": "Tauros",
-    "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/128.png",
+    "img": "/resource/img/pokedex/detail/128.png",
     "number": "N.º128",
     "type": ["Normal"],
     "weaknesses": ["Lucha"]
