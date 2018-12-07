@@ -33,8 +33,7 @@ public class ReadData {
 
                 Label number = new Label(dat.getNumber());
                 number.getStyleClass().add("number");
-
-                System.out.println(dat.getImg());
+                
                 ImageView img = new ImageView(new Image(dat.getImg(), 100, 100, true, true));
 
                 Label name = new Label(dat.getName());
