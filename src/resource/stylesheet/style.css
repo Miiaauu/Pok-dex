@@ -55,6 +55,13 @@
 
 /* TIPOS DE POKEMON*/
 
+.default{
+    -fx-background-color: rgba(0, 0, 0, 0.42);
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 3;
+    -fx-font-weight: bold;
+}
+
 .fire{
     -fx-background-color: #fd7d24;
     -fx-text-fill: #FFF;
@@ -83,7 +90,7 @@
     -fx-font-weight: bold;
 }
 
-.hice{
+.ice{
     -fx-background-color: #51c4e7;
     -fx-text-fill: #FFF;
     -fx-background-radius: 3;
@@ -104,7 +111,7 @@
     -fx-font-weight: bold;
 }
 
-.whater{
+.water{
     -fx-background-color: #4592c4;
     -fx-text-fill: #FFF;
     -fx-background-radius: 3;
@@ -117,4 +124,54 @@
     -fx-background-radius: 3;
     -fx-font-weight: bold;
 }
+
+.insect{
+    -fx-background-color: #729f3f;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 3;
+    -fx-font-weight: bold;
+}
+
+.normal{
+    -fx-background-color: #a4acaf;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 3;
+    -fx-font-weight: bold;
+}
+
+.fairy{
+    -fx-background-color: #fdb9e9;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 3;
+    -fx-font-weight: bold;
+}
+
+.electric{
+    -fx-background-color: #eed535;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 3;
+    -fx-font-weight: bold;
+}
+
+.fight{
+    -fx-background-color: #d56723;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 3;
+    -fx-font-weight: bold;
+}
+
+.steel{
+    -fx-background-color: #9eb7b8;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 3;
+    -fx-font-weight: bold;
+}
+
+.ghost {
+    -fx-background-color: #7b62a3;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 3;
+    -fx-font-weight: bold;
+}
+
 /*==================================*/

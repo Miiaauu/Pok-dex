@@ -46,15 +46,15 @@ public class PokeEntity {
     }
 
     public String getName() {
-        return name != null ? name : "Sin nombre";
+        return !name.isEmpty() ? name : "Sin nombre";
     }
 
     public String getImg() {
-        return img != null ? img : "/resource/img/pokedex/detail/default.png";
+        return !img.isEmpty() ? img : "/resource/img/pokedex/detail/default.png";
     }
 
     public String getNumber() {
-        return number != null ?  number : "N.º***";
+        return !number.isEmpty() ?  number : "N.º***";
     }
 
     public String[] getType() {

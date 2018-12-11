@@ -11,6 +11,7 @@ import org.json.simple.parser.ParseException;
 
 import java.io.*;
 import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Entity {
@@ -45,7 +46,7 @@ public class Entity {
                                 field.set(o, object.get(key.name()).toString());
                                 break;
                             case "class [Ljava.lang.String;":
-                                String[] out = object.get(key.name()) == null ? new String[]{} : object.get(key.name()).toString().replace("[", "").replace("]", "").split(",");
+                                String[] out = object.get(key.name()) == null ? new String[]{} : object.get(key.name()).toString().replace("[", "").replace("]", "").replace("\"","").split(",");
                                 field.set(o, out);
                                 break;
                         }
@@ -75,6 +76,46 @@ public class Entity {
         }
 
         return list;
+    }
+
+    public static List findAllPokemon(Class clazz,Object o){
+
+        List<PokeEntity> list = inject(clazz);
+        List<PokeEntity> out = new JSONArray();
+
+        for (PokeEntity pk : list){
+
+            if (pk.getName().toUpperCase().contains(o.toString().toUpperCase())) {
+                out.add(pk);
+            }
+
+            if (pk.getNumber().toUpperCase().contains(o.toString().toUpperCase())) {
+                out.add(pk);
+            }
+
+        }
+
+        return out;
+    }
+
+    public static PokeEntity findPokemon(Class clazz, int id) {
+        return (PokeEntity) inject(clazz).get(id - 1);
+    }
+
+    public static List<String> getCategories(Class clazz) {
+
+        List<PokeEntity> list = inject(clazz);
+        ArrayList<String> out = new ArrayList<>();
+
+        for (PokeEntity pk : list) {
+            for(String type : pk.getType()) {
+                if(!out.contains(type)) {
+                    out.add(type);
+                }
+            }
+        }
+
+        return out;
     }
 
     private static JSONArray getData(String path) {

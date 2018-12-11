@@ -3,6 +3,7 @@ package edu.nintendo.model;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXDialog;
 import com.jfoenix.controls.JFXDialogLayout;
+import edu.nintendo.pojo.Entity;
 import edu.nintendo.pojo.PokeEntity;
 import javafx.event.Event;
 import javafx.event.EventHandler;
@@ -45,6 +46,11 @@ public class ReadData {
 
                 String[] types = dat.getType();
                 TypeColors.setColor(type,types);
+
+                for (String o :types) {
+                    System.out.println(o);
+                }
+
 
                 SVGPath weaknessesIcon = new SVGPath();
                 weaknessesIcon.setContent(icon);
@@ -105,6 +111,20 @@ public class ReadData {
         erases.forEach( o -> {
             list.getItems().removeAll(o);
         });
+
+    }
+
+    public static void loadCategories(VBox box) {
+
+        List<String> categories = Entity.getCategories(PokeEntity.class);
+        box.setSpacing(10);
+
+        for (String  stg : categories) {
+            JFXButton button = new JFXButton(stg);
+            TypeColors.setColor(button);
+            button.setPrefSize(255,150);
+            box.getChildren().add(button);
+        }
 
     }
 
