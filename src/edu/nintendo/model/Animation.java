@@ -1,10 +1,15 @@
 package edu.nintendo.model;
 
+import com.jfoenix.controls.JFXHamburger;
+import com.jfoenix.transitions.hamburger.HamburgerBackArrowBasicTransition;
 import javafx.animation.FadeTransition;
 import javafx.scene.Node;
 import javafx.util.Duration;
 
 public class Animation {
+
+    private static HamburgerBackArrowBasicTransition transition;
+    public static boolean hamburgerUse = false;
 
     public static void open(Node node) {
         node.setVisible(true);
@@ -27,5 +32,17 @@ public class Animation {
         ft2.setOnFinished( evt -> {
             node.setVisible(false);
         });
+    }
+
+    public static void hamburgerTransition(JFXHamburger hamburger) {
+
+        if (!hamburgerUse) {
+            transition = new HamburgerBackArrowBasicTransition(hamburger);
+            transition.setRate(-1);
+            hamburgerUse = true;
+        }
+
+        transition.setRate(transition.getRate() * -1);
+        transition.play();
     }
 }

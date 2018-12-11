@@ -4,6 +4,7 @@ import edu.nintendo.annotation.Id;
 import edu.nintendo.annotation.Json;
 import edu.nintendo.annotation.Key;
 import edu.nintendo.model.Stringfy;
+import javafx.scene.image.Image;
 
 @Json(path = "resource.db.{data.json}")
 public class PokeEntity {
@@ -49,8 +50,12 @@ public class PokeEntity {
         return !name.isEmpty() ? name : "Sin nombre";
     }
 
-    public String getImg() {
-        return !img.isEmpty() ? img : "/resource/img/pokedex/detail/default.png";
+    public Image getImg(int w,int h) {
+        return new Image(img,w, h, true, true);
+    }
+
+    public String getImgPath() {
+        return img;
     }
 
     public String getNumber() {

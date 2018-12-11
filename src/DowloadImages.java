@@ -17,8 +17,8 @@ public class DowloadImages {
 
         data.forEach( o -> {
 
-            System.out.println(o.getImg());
-            if (o.getImg().contains("https://")) {
+            System.out.println(o.getImg(30,30));
+           /* if (o.getImg().contains("https://")) {
                 try {
                     // Url con la foto
                     URL url = new URL(o.getImg());
@@ -48,7 +48,7 @@ public class DowloadImages {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }
+            }*/
         });
 
     }

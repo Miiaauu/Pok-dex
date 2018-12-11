@@ -1,8 +1,10 @@
 package edu.nintendo.model;
 
 import com.jfoenix.controls.*;
+import com.jfoenix.controls.events.JFXAutoCompleteEvent;
 import edu.nintendo.pojo.Entity;
 import edu.nintendo.pojo.PokeEntity;
+import javafx.application.Platform;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
@@ -18,12 +20,14 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.shape.SVGPath;
 import javafx.scene.text.Font;
+import org.controlsfx.control.MaskerPane;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ReadData {
 
+    //METODOS PUBLICOS
     public static void loadPokeData(List<PokeEntity> data, ListView<HBox> list, String icon, EventHandler evnt) {
 
         ArrayList<Node> elements = new ArrayList<>();
@@ -36,7 +40,7 @@ public class ReadData {
                 Label number = new Label(dat.getNumber());
                 number.getStyleClass().add("number");
 
-                ImageView img = new ImageView(new Image(dat.getImg(), 100, 100, true, true));
+                ImageView img = new ImageView(dat.getImg(100,100));
 
                 Label name = new Label(dat.getName());
                 name.getStyleClass().add("name");
@@ -47,10 +51,6 @@ public class ReadData {
 
                 String[] types = dat.getType();
                 TypeColors.setColor(type,types);
-
-                for (String o :types) {
-                    System.out.println(o);
-                }
 
 
                 SVGPath weaknessesIcon = new SVGPath();
@@ -127,7 +127,7 @@ public class ReadData {
         number.getStyleClass().add("number");
         number.setFont(new Font(16));
 
-        ImageView img = new ImageView(new Image(data.getImg(), 215, 215, true, true));
+        ImageView img = new ImageView(data.getImg(215,215));
         VBox number_img = new VBox(number,img);
         //============================================================
 
@@ -262,7 +262,7 @@ public class ReadData {
             types.setAlignment(Pos.CENTER);
             types.setSpacing(10);
 
-            HBox box = new HBox(new ImageView(new Image(o.getImg(),50, 50, true, true)),pokemon,types);
+            HBox box = new HBox(new ImageView(o.getImg(50,50)),pokemon,types);
             box.setMargin(box,new Insets(10,10,0,10));
             box.setAlignment(Pos.CENTER_LEFT);
             box.getStyleClass().add("card-search");
@@ -286,6 +286,42 @@ public class ReadData {
         autoCompletePopup.show(searchFld);
     }
 
+    public static void reload(MaskerPane maskerPane,StackPane contenRoot,ListView<HBox> list,JFXTextField searchFld,String pokeballIcon,EventHandler event) {
+
+        maskerPane.setText("Cargando datos...");
+        maskerPane.setVisible(true);
+
+        contenRoot.getChildren().clear();
+        contenRoot.getChildren().add(list);
+
+        Runnable task = () -> {
+            Platform.runLater(() -> {
+                List<PokeEntity> pokeEntities = Entity.inject(PokeEntity.class);
+                list.getItems().clear();
+                searchFld.setText("");
+                ReadData.loadPokeData(pokeEntities, list, pokeballIcon, event);
+                maskerPane.setVisible(false);
+            });
+        };
+
+        Thread backgroundThread = new Thread(task);
+        backgroundThread.setDaemon(true);
+        backgroundThread.start();
+    }
+
+    public static void loadPokemon(Event event,JFXTextField searchFld,ListView<HBox> list,StackPane contenRoot,String pokeballIcon,EventHandler evt) {
+        HBox pokemonContainer = (HBox) ((JFXAutoCompleteEvent) event).getObject();
+        Label pokemon = (Label) pokemonContainer.getChildren().get(1);
+        searchFld.setText(pokemon.getText());
+
+        PokeEntity pokemon1 = Entity.findPokemon(PokeEntity.class,Integer.parseInt(pokemon.getId()));
+        list.getItems().clear();
+
+        ReadData.loadBigPokeData(pokemon1,contenRoot,pokeballIcon,evt);
+    }
+    //==============================================================================
+
+    //METODOS PRIVADOS
     private static VBox createTypesCard(String[] datas, String title) {
 
         HBox types = new HBox();
@@ -308,5 +344,5 @@ public class ReadData {
 
         return vBox;
     }
-
+    //=====================================================================
 }
