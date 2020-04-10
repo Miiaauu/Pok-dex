@@ -4,6 +4,7 @@ import edu.nintendo.annotation.Id;
 import edu.nintendo.annotation.Json;
 import edu.nintendo.annotation.Key;
 import edu.nintendo.model.ReadData;
+import javafx.scene.image.Image;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -16,10 +17,12 @@ import java.util.List;
 
 public class Entity {
 
+    private static List list = new JSONArray();
 
     public static List inject(Class clazz) {
 
-        List list = new JSONArray();
+        list.clear();
+
         try {
 
             Json jsonAnn = (Json) clazz.getAnnotation(Json.class);
@@ -72,7 +75,7 @@ public class Entity {
             }
 
         } catch (Exception e) {
-            System.out.println(e);
+            System.err.println(e);
         }
 
         return list;
@@ -80,7 +83,7 @@ public class Entity {
 
     public static List findAllPokemon(Class clazz,Object o){
 
-        List<PokeEntity> list = inject(clazz);
+        List<PokeEntity> list = Entity.list;
         List<PokeEntity> out = new JSONArray();
 
         for (PokeEntity pk : list){
@@ -99,12 +102,12 @@ public class Entity {
     }
 
     public static PokeEntity findPokemon(Class clazz, int id) {
-        return (PokeEntity) inject(clazz).get(id - 1);
+        return (PokeEntity) Entity.list.get(id - 1);
     }
 
     public static List<String> getCategories(Class clazz) {
 
-        List<PokeEntity> list = inject(clazz);
+        List<PokeEntity> list = Entity.list;
         ArrayList<String> out = new ArrayList<>();
 
         for (PokeEntity pk : list) {
